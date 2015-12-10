@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-cp",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "The Chauffeur-Privé eslint",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "author": "",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "eslint": "^1.10.3",
     "eslint-config-airbnb": "^2.0.0"
   },
