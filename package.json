@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-cp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The Chauffeur-Privé eslint",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "devDependencies": {
     "eslint": "^1.10.3",
     "eslint-config-airbnb": "^2.0.0"
-  }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/transcovo/eslint-config-cp.git"
