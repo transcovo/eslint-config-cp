@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-cp",
+  "version": "0.1.0",
+  "description": "The Chauffeur-Privé eslint",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/eslint/bin/eslint.js ./ --rulesdir eslint-rules/ .",
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^2.0.0"
+  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/transcovo/eslint-config-cp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/transcovo/eslint-config-cp/issues"
+  },
+  "homepage": "https://github.com/transcovo/eslint-config-cp#readme"
+}
