@@ -3,8 +3,9 @@
   "rules": {
     "camelcase": [2,  {"properties": "never"}],
     "comma-dangle": 0,
+    "moment-timezone": 2,
     "strict": 0,
-    "moment-timezone": 2
+    "no-param-reassign": 0
   },
   "globals": {
     "describe": true,
