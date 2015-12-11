@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-cp",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "The Chauffeur-Privé eslint",
   "main": "index.js",
   "scripts": {
