@@ -1,17 +1,15 @@
 {
   "name": "eslint-config-cp",
   "version": "0.1.6",
-  "description": "The Chauffeur-Privé eslint",
+  "description": "The Chauffeur-Privé ESLint",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ./ --rulesdir eslint-rules/ ."
+    "lint": "eslint ."
   },
   "author": "",
   "license": "MIT",
-  "devDependencies": {
-    "eslint": "^1.10.3"
-  },
   "peerDependencies": {
+    "eslint": "^1.10.3",
     "eslint-config-airbnb": "^2.0.0"
   },
   "repository": {
