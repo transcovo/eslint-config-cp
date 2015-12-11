@@ -1,18 +1,28 @@
 # eslint-config-cp
 
-The Chauffeur-Privé eslint
+The Chauffeur-Privé ESLint
 
 
 ## Installation
 ```
-npm install eslint transcovo/eslint-config-cp eslint-config-airbnb --save-dev
+npm install eslint transcovo/eslint-config-cp --save-dev
+```
+
+## Set up a .eslintrc in your project
+```
+{
+  "extends": "cp",
+  "rules" : {
+  }
+}
+
 ```
 
 ## Add it to your project's package.json
 ```
 {
   "scripts": {
-    "lint": "eslint --config ./node_modules/eslint-config-cp/.eslintrc --rulesdir ./node_modules/eslint-config-cp/rules .",
+    "lint": "eslint .",
   }
 }
 ```
