@@ -6,7 +6,7 @@ module.exports = {
     'no-use-before-define': [2, 'nofunc'],
     'vars-on-top': 0,
     'comma-dangle': 0,
-    'no-param-reassign': 0
+    'no-param-reassign': 0,
     'strict': 0
   },
   ecmaFeatures: {
