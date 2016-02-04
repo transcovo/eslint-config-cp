@@ -7,7 +7,9 @@ module.exports = {
     'vars-on-top': 0,
     'comma-dangle': 0,
     'no-param-reassign': 0,
-    'strict': 0
+    'strict': 0,
+    'valid-jsdoc': 1,
+    'require-jsdoc': 1
   },
   ecmaFeatures: {
     'generators': true
