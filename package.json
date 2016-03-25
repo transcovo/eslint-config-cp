@@ -8,13 +8,13 @@
   },
   "author": "",
   "license": "MIT",
-  "dependencies": {
-    "eslint": "^1.10.3",
-    "eslint-config-airbnb": "^2.0.0"
+  "devDependencies": {
+    "eslint": "^2.4.0",
+    "eslint-config-airbnb": "^6.2.0"
   },
   "peerDependencies": {
-    "eslint": "^1.10.3",
-    "eslint-config-airbnb": "^2.0.0"
+    "eslint": "^2.4.0",
+    "eslint-config-airbnb": "^6.2.0"
   },
   "repository": {
     "type": "git",
