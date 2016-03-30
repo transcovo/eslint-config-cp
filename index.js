@@ -9,7 +9,8 @@ module.exports = {
     'no-param-reassign': 0,
     'strict': 0,
     'valid-jsdoc': 1,
-    'require-jsdoc': 1
+    'require-jsdoc': 1,
+    'comma-dangle': [2, 'never']
   },
   ecmaFeatures: {
     'generators': true
