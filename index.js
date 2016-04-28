@@ -10,7 +10,8 @@ module.exports = {
     'strict': 0,
     'valid-jsdoc': 1,
     'require-jsdoc': 1,
-    'comma-dangle': [2, 'never']
+    'comma-dangle': [2, 'never'],
+    'no-underscore-dangle': [0]
   },
   ecmaFeatures: {
     'generators': true
