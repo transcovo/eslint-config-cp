@@ -11,7 +11,8 @@ module.exports = {
     'valid-jsdoc': 1,
     'require-jsdoc': 1,
     'comma-dangle': [2, 'never'],
-    'no-underscore-dangle': [0]
+    'no-underscore-dangle': [0],
+    'newline-per-chained-call': [0]
   },
   ecmaFeatures: {
     'generators': true
