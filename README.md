@@ -4,7 +4,7 @@ The Chauffeur-Privé ESLint
 
 ## Installation
 ```
-npm install eslint transcovo/eslint-config-cp#<version in package.json> --save-dev
+npm install eslint-config-cp eslint eslint-plugin-import eslint-config-airbnb --save-dev
 ```
 
 ## Set up a .eslintrc in your project
