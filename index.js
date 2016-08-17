@@ -12,7 +12,8 @@ module.exports = {
     'require-jsdoc': 1,
     'comma-dangle': [2, 'never'],
     'no-underscore-dangle': [0],
-    'newline-per-chained-call': [0]
+    'newline-per-chained-call': [0],
+    'import/no-extraneous-dependencies': [2, { devDependencies: true }]
   },
   ecmaFeatures: {
     'generators': true
