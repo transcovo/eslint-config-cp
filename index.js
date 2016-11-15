@@ -13,10 +13,12 @@ module.exports = {
     'comma-dangle': [2, 'never'],
     'no-underscore-dangle': [0],
     'newline-per-chained-call': [0],
-    'import/no-extraneous-dependencies': [2, { devDependencies: true }]
+    'import/no-extraneous-dependencies': [2, { devDependencies: true }],
+    'strict': [2, 'global']
   },
   ecmaFeatures: {
-    'generators': true
+    'generators': true,
+    'impliedStrict': true
   },
   globals: {
     'describe': true,
