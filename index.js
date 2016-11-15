@@ -7,7 +7,6 @@ module.exports = {
     'vars-on-top': 0,
     'comma-dangle': 0,
     'no-param-reassign': 0,
-    'strict': 0,
     'valid-jsdoc': 1,
     'require-jsdoc': 1,
     'comma-dangle': [2, 'never'],
@@ -29,5 +28,14 @@ module.exports = {
     'after': true,
     'beforeEach': true,
     'afterEach': true
-  }
+  },
+  'env': {
+    'es6': true,
+    'node': true,
+    'mocha': true
+  },
+  'parserOptions': {
+    'ecmaVersion': 6,
+    'sourceType': 'global'
+},
 };
