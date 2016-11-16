@@ -13,7 +13,14 @@ module.exports = {
     'no-underscore-dangle': [0],
     'newline-per-chained-call': [0],
     'import/no-extraneous-dependencies': [2, { devDependencies: true }],
-    'strict': [2, 'global']
+    'strict': [2, 'global'],
+    'arrow-parens': [0],
+    'no-restricted-syntax': [
+      'error',
+      'ForInStatement',
+      'LabeledStatement',
+      'WithStatement',
+    ]
   },
   ecmaFeatures: {
     'generators': true,
