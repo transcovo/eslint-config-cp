@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/transcovo/eslint-config-cp/issues"
   },
-  "homepage": "https://github.com/transcovo/eslint-config-cp#readme"
+  "homepage": "https://github.com/transcovo/eslint-config-cp#readme",
+  "engines": {
+    "node": "6.11.1"
+  }
 }
