@@ -4,7 +4,12 @@ module.exports = {
   extends: [
     'airbnb/base'
   ],
+  plugins: [
+    'metrics'
+  ],
   rules: {
+    'metrics/metrics-definition': 1,
+    'metrics/metrics-documentation': 1,
     'no-use-before-define': [2, 'nofunc'],
     'vars-on-top': 0,
     'no-param-reassign': 0,
