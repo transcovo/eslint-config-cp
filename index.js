@@ -26,7 +26,8 @@ module.exports = {
       'ForInStatement',
       'LabeledStatement',
       'WithStatement'
-    ]
+    ],
+    'require-await': 2
   },
   ecmaFeatures: {
     generators: true,
