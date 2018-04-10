@@ -15,7 +15,7 @@ module.exports = {
     'no-param-reassign': 0,
     'valid-jsdoc': 1,
     'require-jsdoc': 1,
-    'comma-dangle': [2, 'never'],
+    'comma-dangle': [1, 'always-multiline'],
     'no-underscore-dangle': [0],
     'newline-per-chained-call': [0],
     'import/no-extraneous-dependencies': [2, { devDependencies: true }],
