@@ -21,6 +21,9 @@ module.exports = {
     'import/no-extraneous-dependencies': [2, { devDependencies: true }],
     strict: [2, 'global'],
     'arrow-parens': [0],
+    'object-curly-newline': [2,
+      { 'consistent': true }
+    ],
     'no-restricted-syntax': [
       'error',
       'ForInStatement',
@@ -28,10 +31,6 @@ module.exports = {
       'WithStatement'
     ],
     'require-await': 2
-  },
-  ecmaFeatures: {
-    generators: true,
-    impliedStrict: true
   },
   globals: {
     describe: true,
