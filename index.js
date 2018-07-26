@@ -29,10 +29,6 @@ module.exports = {
     ],
     'require-await': 2
   },
-  ecmaFeatures: {
-    generators: true,
-    impliedStrict: true
-  },
   globals: {
     describe: true,
     it: true,
